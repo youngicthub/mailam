@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailAM</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar">
+        <div class="logo">Mail<span>AM</span></div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="/html/signup.html">Sign-Up</a></li> <!-- Link to signup page -->
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="body">
+            <div class="textbody">
+                <h1 class="body_text">Welcome to <span>MailAm</span> </h1> <br>
+                <h3 class="body_h3">Your all-in-one professional email solution.</h3>
+                <a href="/html/signup.html" class="body_getStarted">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Features</h2>
+        <div class="features-container">
+            <div class="feature-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
+                    <path fillRule="evenodd"
+                        d="M5.478 5.559A1.5 1.5 0 0 1 6.912 4.5H9A.75.75 0 0 0 9 3H6.912a3 3 0 0 0-2.868 2.118l-2.411 7.838a3 3 0 0 0-.133.882V18a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3v-4.162c0-.299-.045-.596-.133-.882l-2.412-7.838A3 3 0 0 0 17.088 3H15a.75.75 0 0 0 0 1.5h2.088a1.5 1.5 0 0 1 1.434 1.059l2.213 7.191H17.89a3 3 0 0 0-2.684 1.658l-.256.513a1.5 1.5 0 0 1-1.342.829h-3.218a1.5 1.5 0 0 1-1.342-.83l-.256-.512a3 3 0 0 0-2.684-1.658H3.265l2.213-7.191Z"
+                        clipRule="evenodd" />
+                    <path fillRule="evenodd"
+                        d="M12 2.25a.75.75 0 0 1 .75.75v6.44l1.72-1.72a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 0 1 1.06-1.06l1.72 1.72V3a.75.75 0 0 1 .75-.75Z"
+                        clipRule="evenodd" />
+                </svg>
+
+                <h3>Organized Inbox</h3>
+                <p>Keep your emails organized and easily accessible with our smart categorization.</p>
+            </div>
+            <div class="feature-box">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round"
+                        d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
+                </svg>
+
+                <h3>Secure Messaging</h3>
+                <p>Your privacy is our priority. Enjoy end-to-end encryption for all your emails.</p>
+            </div>
+            <div class="feature-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path d="M10.5 18.75a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z" />
+                    <path fill-rule="evenodd"
+                        d="M8.625.75A3.375 3.375 0 0 0 5.25 4.125v15.75a3.375 3.375 0 0 0 3.375 3.375h6.75a3.375 3.375 0 0 0 3.375-3.375V4.125A3.375 3.375 0 0 0 15.375.75h-6.75ZM7.5 4.125C7.5 3.504 8.004 3 8.625 3H9.75v.375c0 .621.504 1.125 1.125 1.125h2.25c.621 0 1.125-.504 1.125-1.125V3h1.125c.621 0 1.125.504 1.125 1.125v15.75c0 .621-.504 1.125-1.125 1.125h-6.75A1.125 1.125 0 0 1 7.5 19.875V4.125Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <h3>Mobile Friendly</h3>
+                <p>Access your emails on the go with our fully responsive mobile application.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Reviews Section -->
+    <section class="reviews" id="reviews">
+        <h2>User Reviews</h2>
+        <div class="review-cards">
+            <div class="review-card">
+                <p>"MailAm has transformed the way I manage my emails!"</p>
+                <p class="reviewer">- Jane Doe</p>
+            </div>
+            <div class="review-card">
+                <p>"I love the security features and the clean interface!"</p>
+                <p class="reviewer">- John Smith</p>
+            </div>
+            <div class="review-card">
+                <p>"The mobile app is fantastic and very user-friendly!"</p>
+                <p class="reviewer">- Sarah Wilson</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Us Section -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to get in touch with us. We'd love to hear from you!</p>
+
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="user_name">Name</label>
+                <input type="text" id="user_name" name="user_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="user_email">Email</label>
+                <input type="email" id="user_email" name="user_email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div id="status"></div>
+    </section>
+
+
+    <section class="signforfree">
+        <div class="signforfreediv">
+
+            <h2 class="free">Sign Up for Free</h2>
+            <p class="signup">
+                Join us today and experience the best email service!
+            </p>
+            <a href="signup.html" class="createAc">Create an Account</a>
+        </div>
+    </section>
+
+    <div class="developers">
+        <h2 class="dev">
+            Developers
+        </h2>
+        <div class="developerdiv">
+            <img src="/img/mypics.jpeg" alt="Developer Image">
+            <div class="info">
+                <h3>Dan Goodnews</h3>
+                <h5>FrontEnd Developer</h5>
+                <p>Email: youngicthub@gmail.com</p>
+                <p>Phone: +234 813 007 8945</p>
+            </div>
+        </div>
+
+        <div class="developerdiv">
+            <img src="/img/mypics.jpeg" alt="Developer Image">
+            <div class="info">
+                <h3>Dan Goodnews</h3>
+                <h5>FrontEnd Developer</h5>
+                <p>Email: youngicthub@gmail.com</p>
+                <p>Phone: +234 813 007 8945</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 MailAm. All rights reserved. </p>
+        <p>Follow us on <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://instagram.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
